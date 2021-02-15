@@ -3,7 +3,7 @@
       box-sizing: border-box;
     }
     body{
-        background-image: url("DiamondBackground.jpg");
+        background-image: url("Images/DiamondBackground.jpg");
         text-align: center;
         font-size: 16px;
         font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -43,7 +43,7 @@
         position: fixed;
         overflow: auto;
 
-        background-image: url("WoodenBackground.png");
+        background-image: url("Images/WoodenBackground.png");
         background-color: #f1f1f1;
     }
     #sidebar li a{

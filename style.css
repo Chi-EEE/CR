@@ -1,0 +1,70 @@
+
+    * {
+      box-sizing: border-box;
+    }
+    body{
+        background-image: url("DiamondBackground.jpg");
+        text-align: center;
+        font-size: 16px;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        color: rgb(0, 0, 0);
+        margin: 0;
+    }
+    h2{
+        font-family: CR Font;
+    }
+    #social-media{
+        background-color: black;
+    }
+    
+    #social-media a{
+        margin:15px;
+    }
+
+    .main{
+        background-color: white;
+        width: 800px;
+        padding: 50px;
+        
+        margin: auto;
+    }
+    #title{
+        height: 220px;
+    }
+    ul{               
+        list-style-type: none;
+
+        margin: 0;
+        padding: 0;
+
+        width: 15%;
+        height: 100%;
+
+        position: fixed;
+        overflow: auto;
+
+        background-image: url("WoodenBackground.png");
+        background-color: #f1f1f1;
+    }
+    li a{
+        color: rgb(255, 255, 255);
+        font-family: "CR Font Bold";
+        line-height: 1.6;
+        display: block;
+    }
+    li a:hover, a:active, a:focus{
+        background-color: rgba(255, 255, 255, 0.589);
+    }
+
+    p{
+        line-height: 1.3;
+    }
+
+    @font-face {
+        font-family: "CR Font";
+        src: url(Fonts/Clash-Regular.woff) format("woff");
+    }
+    @font-face {
+        font-family: "CR Font Bold";
+        src: url(Fonts/Clash-Bold.woff) format("woff");
+    }

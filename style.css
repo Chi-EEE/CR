@@ -52,8 +52,8 @@
         line-height: 1.6;
         display: block;
     }
-    #sidebar li a:hover, a:active, a:focus{
-        background-color: rgba(255, 255, 255, 0.589);
+    #sidebar li a:hover:not(#active), a:active:not(#active), a:focus:not(#active){
+        background-color: rgba(4, 0, 255, 0.589);
     }
 
     p{
@@ -69,6 +69,9 @@
     }
     #balance-change{
         background-color: rgb(185, 185, 185);
+    }
+    #active{
+        background-color: rgb(4, 0, 255);
     }
     .card{
         float: left;

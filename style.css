@@ -10,7 +10,7 @@
         color: rgb(0, 0, 0);
         margin: 0;
     }
-    h1, h2, h3, h4{
+    h1, h2, h3, h4, h5{
         font-family: CR Font;
     }
     #social-media{
@@ -60,6 +60,16 @@
         line-height: 1.3;
     }
 
+    .card-table, th, td {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(167, 167, 167);
+        border-radius: 4px;
+        border: 1px solid black;
+    }
+    #balance-change{
+        background-color: rgb(185, 185, 185);
+    }
     .card{
         float: left;
         background-color: rgb(184, 184, 184);
@@ -87,4 +97,28 @@
     @font-face {
         font-family: "CR Font Bold";
         src: url(Fonts/Clash-Bold.woff) format("woff");
+    }
+
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+    
+    input[type=submit] {
+        background-color: rgb(126, 75, 255);
+        color: white;
+        cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+        background-color: #4c00ff;
+    }
+    
+    .container {
+        background-color: #f2f2f2;
+        padding: 20px;
     }

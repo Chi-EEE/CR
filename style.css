@@ -44,7 +44,7 @@
         overflow: auto;
 
         background-image: url("Images/WoodenBackground.png");
-        background-color: #f1f1f1;
+        background-color: #3a2515;
     }
     #sidebar li a{
         color: rgb(255, 255, 255);
@@ -67,6 +67,11 @@
         border-radius: 4px;
         border: 1px solid black;
     }
+
+    .card-heading{
+        padding-top: 4px;
+    }
+
     #balance-change{
         background-color: rgb(185, 185, 185);
     }
@@ -92,6 +97,8 @@
         float: middle;
         background-color: rgb(184, 184, 184);
         border-radius: 24px;
+        padding-top: 1px;
+        padding-bottom: 1px;
     }
     @font-face {
         font-family: "CR Font";
